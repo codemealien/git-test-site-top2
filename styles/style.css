@@ -1,17 +1,37 @@
 html {
-    font-size: 50px; /*the base font is now 10 pixels high */
-    font-family: 'Open Sans', sans-serif; /*output i got from google fonts/*
+    font-size: 30px; /*the base font is now 10 pixels high */
+    font-family: 'Open Sans', sans-serif; /*output i got from google fonts*/
+    background-color: #882d65f1; /*please work funky color*/
+}
+body {
+    width: page;
+    margin: 2 auto;
+    background-color: #e7bde6c4;
+    padding: 0 20px 20px 20px;
+    border: 2px solid rgba(0, 0, 0, 0.815)
 }
 h1 {
-    font-size: 80px;
+    font-size: 40px;
     text-align: center;
+    margin: auto;
+    padding: 15px 0;
+    color: #882d65e0;
+    text-shadow: 1.5px 1.5px 0.5px black;
 }
 h2 {
-    font-size: 65px;
+    font-size: 30px;
     text-align: center;
 }
+h3 {
+    font-size: 25px;
+}
 p, li {
-    font-size: 50px;
-    line-height: 4;
+    font-size: 15px;
+    line-height: 2;
     letter-spacing: 1px;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    width: 400px;
 }
