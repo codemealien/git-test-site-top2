@@ -1,3 +1,17 @@
-p {
-    color: red;
+html {
+    font-size: 50px; /*the base font is now 10 pixels high */
+    font-family: 'Open Sans', sans-serif; /*output i got from google fonts/*
+}
+h1 {
+    font-size: 80px;
+    text-align: center;
+}
+h2 {
+    font-size: 65px;
+    text-align: center;
+}
+p, li {
+    font-size: 50px;
+    line-height: 4;
+    letter-spacing: 1px;
 }
